@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string-array name="shared_libraries">
+        <item>tango_unity_3dr_shim_api</item>
+    </string-array>
+</resources>
