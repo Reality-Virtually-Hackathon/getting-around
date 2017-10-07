@@ -1,26 +1,98 @@
-<head> 
-	<script type="text/javascript" src="map.js"> </script>
-	<link rel="stylesheet" type="text/css" href="style.css"></link>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZ6kIyihBQPFrRu2-zHisMQfZyGGITCx8&libraries=drawing&callback=initMap" async defer></script>
-</head> 
+<head>
+    <script type="text/javascript" src="map.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZ6kIyihBQPFrRu2-zHisMQfZyGGITCx8&libraries=drawing&callback=initMap"
+            async defer></script>
 
-<body> 
+    <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCBdXdS_ks9O5ASpru06g4sfKVriO_4qpo",
+            authDomain: "getting-around-4803a.firebaseapp.com",
+            databaseURL: "https://getting-around-4803a.firebaseio.com",
+            projectId: "getting-around-4803a",
+            storageBucket: "getting-around-4803a.appspot.com",
+            messagingSenderId: "325116308806"
+        };
+        firebase.initializeApp(config);
+    </script>
 
-<div id=""> <h3> ARound </h1></div> 
+</head>
 
-<div id="myModal" class="modal" >
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Upload an Audio File</p>
-    <form type="submit" action="/upload/audio" method="post">
-    	<input id="audio-file" type="file" />
-	</form>
-  </div>
+<body>
+
+<div id=""><h3> ARound </h3></div>
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Upload an Audio File</p>
+        <input id="file" name="file" type="file"/>
+
+        <span id="linkbox"></span>
+    </div>
 </div>
 
 <div id="map"></div>
 
+<script>
+    var auth = firebase.auth();
+    // Create a root reference
+    var storageRef = firebase.storage().ref();
 
+    function writeAudioFile(path, dataFileName) {
+        firebase.database().ref(path).update({
+            audio: dataFileName
+        });
+    }
+
+    function handleFileSelect(evt) {
+        evt.stopPropagation();
+        evt.preventDefault();
+        var file = evt.target.files[0];
+
+        var metadata = {
+            'contentType': file.type
+        };
+        var path = lat + ' ' + lng + '/';
+        var pathStr = path.replace('.', '_').replace('.', '_');
+
+        writeAudioFile(pathStr, file.name);
+
+        // Push to child path.
+        // [START oncomplete]
+        storageRef.child(pathStr + file.name).put(file, metadata).then(function(snapshot) {
+            console.log('Uploaded', snapshot.totalBytes, 'bytes.');
+            console.log(snapshot.metadata);
+            var url = snapshot.downloadURL;
+            console.log('File available at', url);
+            // [START_EXCLUDE]
+            document.getElementById('linkbox').innerHTML = '<a href="' +  url + '">Click For File</a>';
+            // [END_EXCLUDE]
+        }).catch(function(error) {
+            // [START onfailure]
+            console.error('Upload failed:', error);
+            // [END onfailure]
+        });
+        // [END oncomplete]
+    }
+
+    window.onload = function () {
+        document.getElementById('file').addEventListener('change', handleFileSelect, false);
+        document.getElementById('file').disabled = true;
+        auth.onAuthStateChanged(function (user) {
+            if (user) {
+                console.log('Anonymous user signed-in.', user);
+                document.getElementById('file').disabled = false;
+            } else {
+                console.log('There was no anonymous session. Creating a new anonymous user.');
+                // Sign the user in anonymously since accessing Storage requires the user to be authorized.
+                auth.signInAnonymously();
+            }
+        });
+    }
+</script>
 
 
 </body> 

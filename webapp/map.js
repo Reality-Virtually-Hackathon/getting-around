@@ -1,3 +1,5 @@
+var lat, lng;
+
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 42.3601, lng: -71.0942}, //MIT = 42.3601° N, 71.0942 W
@@ -27,18 +29,21 @@ function initMap() {
       drawingManager.setDrawingMode(null);
       google.maps.event.addListener(marker, 'click', function() {
         document.getElementById('myModal').style.display = "block";
-        console.log('hi')
+        lat = marker.getPosition().lat();
+        lng = marker.getPosition().lng();
+        console.log('hi');
       });
   });
 }
 
-var closeModal = document.getElementsByClassName("close")[0]; 
+var closeModal = document.getElementsByClassName("close")[0];
 closeModal.onclick = function() {
     document.getElementById('myModal').style.display = "none";
-}
+};
 window.onclick = function(event) {
-  console.log(event.target); 
-    if (event.target == modal) {
+  console.log(event.target);
+    if (event.target === modal) {
       document.getElementById('myModal').style.display = "none";
     }
-}
+};
+
