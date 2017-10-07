@@ -6,6 +6,9 @@ public class DropMarkers : MonoBehaviour {
 
 	private float nextActionTime = 0.0f;
 	public float period = 1.0f;
+	public GameObject soundOrb; 
+	public GameObject phone; 
+	public bool muteMarkers = true; 
 
 	// Use this for initialization
 	void Start () {
@@ -17,6 +20,11 @@ public class DropMarkers : MonoBehaviour {
 
 		if (Time.time > nextActionTime ) {
 			nextActionTime += period;
+			if (muteMarkers) {
+				soundOrb.audio.mute = true; 
+			}
+				
+			Instantiate(soundOrb, phone.transform.position, phone.transform.rotation);
 
 			// execute block of code here
 		}

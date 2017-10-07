@@ -406,6 +406,20 @@ AudioListener:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1394164186}
   m_Enabled: 1
+--- !u!114 &1394164188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1394164186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a12b514fe864a60a9a2e6794edfc49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  period: 1
+  soundOrb: {fileID: 1190091649889860, guid: abf67d1df0af645248829095ce925bcb, type: 2}
+  phone: {fileID: 1394164186}
 --- !u!1 &1608144853
 GameObject:
   m_ObjectHideFlags: 0

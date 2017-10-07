@@ -271,3 +271,4 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 c9234b7e6d8c09d934938a47393fa3dc Assembly-CSharp.dll:.LogPosition
+5808d6617e13ea4efd0eae242d73e163 Assembly-CSharp.dll:.DropMarkers
