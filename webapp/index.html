@@ -1,0 +1,26 @@
+<head> 
+	<script type="text/javascript" src="map.js"> </script>
+	<link rel="stylesheet" type="text/css" href="style.css"></link>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZ6kIyihBQPFrRu2-zHisMQfZyGGITCx8&libraries=drawing&callback=initMap" async defer></script>
+</head> 
+
+<body> 
+
+<div id=""> <h3> ARound </h1></div> 
+
+<div id="myModal" class="modal" >
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Upload an Audio File</p>
+    <form type="submit" action="/upload/audio" method="post">
+    	<input id="audio-file" type="file" />
+	</form>
+  </div>
+</div>
+
+<div id="map"></div>
+
+
+
+
+</body> 
