@@ -1,9 +1,10 @@
-![Getting ARound](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/logo1x.png "Getting ARound") # Getting ARound
+![Getting ARound](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/logo1x.png "Getting ARound")
+# Getting ARound
 ### An Augmented Sound Experience
 
 _Augment your Navigation by making it Accessible and Acoustic_
 
-#### Last working code is on _temp_ branch
+#### Last working code is on [_temp_](https://github.com/Reality-Virtually-Hackathon/getting-around/tree/temp) branch
 
 **Technologies**
 1. Ricoh Theta 
@@ -30,8 +31,14 @@ Created during the hackathon by Anandana and Sunish
 #### Visioned Mobile AR App Design
 ![Getting ARound Mobile AR App splash screen](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.splash.png "Getting ARound Mobile AR App splash screen")
 ---
+***
+___
 ![Getting ARound Mobile AR App home](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.home.png "Getting ARound Mobile AR App home")
 ---
+***
+___
 ![Getting ARound Mobile AR App home2](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.home2.png "Getting ARound Mobile AR App home2")
 ---
+***
+___
 ![Getting ARound Mobile AR App details](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.map.extended.png "Getting ARound Mobile AR App details")
