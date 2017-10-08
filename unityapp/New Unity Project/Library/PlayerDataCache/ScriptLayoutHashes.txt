@@ -16,7 +16,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 9ca6347af5ceb6b0d1c105af31b6722e UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:GoogleARCore.Anchor
 655884266be5580639b03fa8b5a830a5 Assembly-CSharp.dll:GoogleARCore.SessionConfig
-be1245d215e2eafce80614a7dcd1e0cb Assembly-CSharp.dll:.DropMarkers
+70f79aec548494104acea737bd6fe80e Assembly-CSharp.dll:.DropMarkers
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button

@@ -95,7 +95,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5fca2a1b12dce49aa9eb6d1898040884, type: 3}
+  m_audioClip: {fileID: 8300000, guid: dd351653f1d594d43b0b61b532de5768, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -104,9 +104,9 @@ AudioSource:
   Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 200
+  DopplerLevel: 4.05
+  MinDistance: 0.05
+  MaxDistance: 0.5
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -135,7 +135,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 0.9
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -147,7 +147,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 0
+      value: 0.027777778
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -188,7 +188,7 @@ ParticleSystem:
   lengthInSec: 5
   simulationSpeed: 1
   stopAction: 0
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -700,7 +700,7 @@ ParticleSystem:
     m_UseMeshColors: 1
     alignToDirection: 0
     randomDirectionAmount: 0
-    sphericalDirectionAmount: 0
+    sphericalDirectionAmount: 1
     randomPositionAmount: 0
     radius:
       value: 1
@@ -3578,7 +3578,7 @@ ParticleSystemRenderer:
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
-  m_MaxParticleSize: 0.5
+  m_MaxParticleSize: 0.2
   m_CameraVelocityScale: 0
   m_VelocityScale: 0
   m_LengthScale: 2

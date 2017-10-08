@@ -15,7 +15,7 @@ public class loadButton : MonoBehaviour {
 	// Update is called once per frame
 	void ToggleMode () {
 		muteMarkers = ! muteMarkers; 
-		if (muteMarkers) {
+		if (!muteMarkers) {
 			t.text = "Dropping breadcrumbs..."; 
 		} else {
 			t.text = "Retracing breadcrumbs..."; 
