@@ -4,6 +4,8 @@
 
 _Augment your Navigation by making it Accessible and Acoustic_
 
+#### Last working code is on _temp_ branch
+
 **Technologies**
 1. Ricoh Theta 
 2. Unity - Android
@@ -24,13 +26,13 @@ Created during the hackathon by Maxim
 Created during the hackathon by Anandana and Sunish
 
 #### Visioned Web App Design
-![alt text](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/web.master.png "Getting ARound Web App")
+![Getting ARound Web App](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/web.master.png)
 
 #### Visioned Mobile AR App Design
-![alt text](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.splash.png "Getting ARound Mobile AR App Splash Screen")
+![Getting ARound Mobile AR App splash screen](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.splash.png =200x355)
 
-![alt text](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.home.png "Getting ARound Mobile AR App")
+![Getting ARound Mobile AR App home](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.home.png =200x355)
 
-![alt text](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.home2.png "Getting ARound Mobile AR App")
+![Getting ARound Mobile AR App home2](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.home2.png =200x355)
 
-![alt text](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.map.extended.png "Getting ARound Mobile AR App")
+![Getting ARound Mobile AR App details](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.map.extended.png =200x355)
