@@ -1,5 +1,4 @@
-![alt text](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/logo1x.png "Getting ARound")
-# Getting ARound
+![Getting ARound](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/logo1x.png "Getting ARound") # Getting ARound
 ### An Augmented Sound Experience
 
 _Augment your Navigation by making it Accessible and Acoustic_
@@ -29,10 +28,10 @@ Created during the hackathon by Anandana and Sunish
 ![Getting ARound Web App](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/web.master.png)
 
 #### Visioned Mobile AR App Design
-![Getting ARound Mobile AR App splash screen](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.splash.png =200x355)
-
-![Getting ARound Mobile AR App home](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.home.png =200x355)
-
-![Getting ARound Mobile AR App home2](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.home2.png =200x355)
-
-![Getting ARound Mobile AR App details](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.map.extended.png =200x355)
+![Getting ARound Mobile AR App splash screen](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.splash.png "Getting ARound Mobile AR App splash screen")
+---
+![Getting ARound Mobile AR App home](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.home.png "Getting ARound Mobile AR App home")
+---
+![Getting ARound Mobile AR App home2](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.home2.png "Getting ARound Mobile AR App home2")
+---
+![Getting ARound Mobile AR App details](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.map.extended.png "Getting ARound Mobile AR App details")
