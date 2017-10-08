@@ -36,14 +36,19 @@ function initMap() {
   });
 }
 
-var closeModal = document.getElementsByClassName("close")[0];
-closeModal.onclick = function() {
-    document.getElementById('myModal').style.display = "none";
-};
+// closeModal.onclick = function() {
+//     console.log(event.target);
+//     if (event.target == closeModal) {
+//         uploadModal.style.display = "none";
+//     }
+// };
 window.onclick = function(event) {
-  console.log(event.target);
-    if (event.target === modal) {
-      document.getElementById('myModal').style.display = "none";
+    // console.log(event.target);
+    // console.log(closeModal);
+    // console.log(uploadModal);
+    if (event.target == closeModal) {
+        // console.log("closing");
+        uploadModal.style.display = "none";
     }
 };
 
