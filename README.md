@@ -27,10 +27,10 @@ Created during the hackathon by Anandana and Sunish
 ![alt text](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/web.master.png "Getting ARound Web App")
 
 #### Visioned Mobile AR App Design
-![alt text](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.splash.png "Getting ARound Mobile AR App Splash Screen")
+![alt text](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.splash.png "Getting ARound Mobile AR App Splash Screen" =200x355)
 
-![alt text](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.home.png "Getting ARound Mobile AR App")
+![alt text](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.home.png "Getting ARound Mobile AR App" =200x355)
 
-![alt text](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.home2.png "Getting ARound Mobile AR App")
+![alt text](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.home2.png "Getting ARound Mobile AR App" =200x355)
 
-![alt text](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.map.extended.png "Getting ARound Mobile AR App")
+![alt text](https://github.com/Reality-Virtually-Hackathon/getting-around/blob/master/AROUND-assets/mobile.map.extended.png "Getting ARound Mobile AR App" =200x355)
