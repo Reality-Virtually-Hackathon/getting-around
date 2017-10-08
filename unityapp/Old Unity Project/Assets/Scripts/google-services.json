@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "325116308806",
+    "firebase_url": "https://getting-around-4803a.firebaseio.com",
+    "project_id": "getting-around-4803a",
+    "storage_bucket": "getting-around-4803a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325116308806:android:a1b453eb6a829fb2",
+        "android_client_info": {
+          "package_name": "com.ar.gettingaround"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325116308806-b3rgrko88rlctfeb5fnrg378f8t45l18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0dqlzdaoj3AF3pfBq-jrZLYphICJeUgA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

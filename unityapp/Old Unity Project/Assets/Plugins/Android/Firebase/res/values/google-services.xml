@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="firebase_database_url" translatable="false">https://getting-around-4803a.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">325116308806</string>
+  <string name="google_storage_bucket" translatable="false">getting-around-4803a.appspot.com</string>
+  <string name="project_id" translatable="false">getting-around-4803a</string>
+  <string name="google_api_key" translatable="false">AIzaSyB0dqlzdaoj3AF3pfBq-jrZLYphICJeUgA</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB0dqlzdaoj3AF3pfBq-jrZLYphICJeUgA</string>
+  <string name="google_app_id" translatable="false">1:325116308806:android:a1b453eb6a829fb2</string>
+  <string name="default_web_client_id" translatable="false">325116308806-b3rgrko88rlctfeb5fnrg378f8t45l18.apps.googleusercontent.com</string>
+</resources>

@@ -103,6 +103,7 @@
      <Compile Include="Assets\GoogleARCore\SDK\Scripts\Utility\ProvidedSingleton.cs" />
      <Compile Include="Assets\GoogleARCore\SDK\Scripts\Utility\SingletonComponentProvider.cs" />
      <Compile Include="Assets\Scripts\DropMarkers.cs" />
+     <Compile Include="Assets\Scripts\GeoLocate.cs" />
      <Compile Include="Assets\Scripts\loadButton.cs" />
      <Compile Include="Assets\Scripts\LogPosition.cs" />
      <Compile Include="Assets\Scripts\toggleModes.cs" />
